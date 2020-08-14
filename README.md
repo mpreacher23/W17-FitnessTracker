@@ -47,5 +47,6 @@ We would like you to have well over 200 commits by graduation, so commit early a
 You are required to submit the following:
 
 * The URL to the deployed application
+https://fitness-trackersmu-68812.herokuapp.com/
 
 * The URL to the Github repository
