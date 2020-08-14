@@ -1,47 +1,51 @@
-# W17-FitnessTracker
+# Unit 17 Nosql Homework: Workout Tracker
 
-Unit 17: NoSQL
+For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-Overview
-In the late 90s and early 2000s, developers began to explore database options that allowed their web applications to handle unstructured data to meet the growing and ever-changing demands of users and address the limitations of the relational model. While these alternative databases existed for decades prior, they didn’t receive the label NoSQL until this time period.
-The structure of a NoSQL database is something other than a table. There are several different types of NoSQL databases, such as key-value and graph. In this unit we will learn MongoDB, a document-oriented NoSQL database. MongoDB documents correspond to a row, or record, in SQL, but unlike rows, documents are analogous to JSON objects. You can see why MongoDB is a popular choice for Node.js developers!
-Rather than object-relational mapping, we will implement object-document mapping, or ODM, with Mongoose.js.
+## User Story
 
-Key Topics
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
-NoSQL
-MongoDB
-Object-document mapping
-Mongoose.js
-CRUD
+## Business Context
 
+A consumer will reach their fitness goals quicker when they track their workout progress.
 
-Comprehension Check
-You will be employer-ready if you can answer the following questions:
+## Acceptance Criteria
 
-What is the difference between SQL and NoSQL?
-What is object-document mapping?
-What is the equivalent of Sequelize associations in Mongoose.js?
+When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
 
+The user should be able to:
 
-Learning Objectives
-You will be employer-competitive if you are able to:
+  * Add exercises to a previous workout plan.
 
-Explain the difference between SQL and NoSQL
-Configure Heroku for deployment of a Node.js application using MongoDB
-Explain and execute CRUD methods with MongoDB, using both the  and Mongoose.js
-Use both a GUI and the Mongo command prompt to interface with a database
-Integrate Mongoose in a full-stack web application
-Create query builders to populate documents using refs
+  * Add new exercises to a new workout plan.
 
+  * View multiple the combined weight of multiple exercises on the `stats` page.
 
-Homework: Workout Tracker
-Create and deploy full-stack workout tracker application. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+## Commit Early and Often
 
-Helpful Links
+One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
 
-NoSQL
-MongoDB Website
-Robo 3T Website
-MongoJS Documentation
-Mongoose Documentation
+1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+
+2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+
+Follow these guidelines for committing:
+
+* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+
+* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+
+* Don't commit half done work, for the sake of your collaborators (and your future self!)
+
+* Test your application before you commit to ensure functionality at every step in the development process
+
+We would like you to have well over 200 commits by graduation, so commit early and often!
+
+## Submission on BCS
+
+You are required to submit the following:
+
+* The URL to the deployed application
+
+* The URL to the Github repository
